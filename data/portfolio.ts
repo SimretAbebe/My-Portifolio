@@ -183,7 +183,7 @@ export const CERTIFICATES = [
   {
     id: "ai-for-social",
     title: "AI for Social Good",
-    image: "/ai-for social.jpg",
+    image: "/ai-for-social.jpg",
   },
   {
     id: "american-corner",
@@ -198,7 +198,7 @@ export const CERTIFICATES = [
   {
     id: "leader-of-change",
     title: "Leader of Change",
-    image: "/leader of change.jpg",
+    image: "/leader-of-change.jpg",
   },
   {
     id: "national-induction",
