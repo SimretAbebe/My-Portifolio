@@ -32,3 +32,15 @@ export interface NavItem {
   name: string;
   href: string;
 }
+
+export interface Certificate {
+  id: string;
+  title: string;
+  issuer: string;
+  date?: string;
+  credentialUrl?: string;
+  skills?: string[];
+  description?: string;
+  image: string;
+}
+

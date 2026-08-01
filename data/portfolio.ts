@@ -4,6 +4,7 @@ import {
   SkillCategory,
   Achievement,
   NavItem,
+  Certificate,
 } from "@/types/portfolio";
 
 export const NAV_ITEMS: NavItem[] = [
@@ -179,31 +180,56 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
 ];
 
-export const CERTIFICATES = [
+export const CERTIFICATES: Certificate[] = [
+  {
+    id: "hackathon",
+    title: "Hackathon Finalist — SmartHire AI",
+    issuer: "Bahir Dar Institute of Technology",
+    date: "Apr 2026",
+    description:
+      "Finalist certificate for building an AI-powered hiring platform in 48 hours.",
+    image: "/hackaton.jpg",
+  },
+  {
+    id: "alx-freelancer",
+    title: "ALX Freelancer Academy",
+    issuer: "ALX ETHIOPIA",
+    date: "Issued Aug 2025",
+    credentialUrl: "https://savanna.alxafrica.com/certificates/Hfr75Nx3LX",
+    image: "/117-freelancer-academy-2-week-certificate-simret-abebe.png",
+  },
   {
     id: "ai-for-social",
-    title: "AI for Social Good",
+    title: "Artificial Intelligence for Social Impact",
+    issuer: "Asian Development Bank Institute",
+    date: "Issued Dec 2025",
     image: "/ai-for-social.jpg",
   },
   {
     id: "american-corner",
-    title: "American Corner Recognition",
+    title: "Web Development Boot Camp",
+    issuer: "Bahirdar American Corner",
+    date: "Issued 2025",
+    skills: ["HTML", "CSS", "JavaScript"],
     image: "/american-corner.jpg",
   },
   {
-    id: "hackathon",
-    title: "Hackathon Certificate",
-    image: "/hackaton.jpg",
+    id: "national-induction",
+    title: "University Ambassador — National Induction",
+    issuer: "G17 Ethiopian Chapter",
+    date: "Dec 2025 — Present",
+    description:
+      "Participated in the G17 Ethiopia National Induction 2025, a youth leadership initiative aligned with the UN Sustainable Development Goals.",
+    image: "/national-induction.jpg",
   },
   {
     id: "leader-of-change",
-    title: "Leader of Change",
+    title: "Youth Participant – SDGs Leadership Program",
+    issuer: "G17 Ethiopian Chapter",
+    date: "Mar 2026",
+    description:
+      "Participated in the 'Leaders of Change: Recognizing the Role of Youth in Achieving the SDGs' initiative.",
     image: "/leader-of-change.jpg",
-  },
-  {
-    id: "national-induction",
-    title: "National Induction",
-    image: "/national-induction.jpg",
   },
 ];
 
