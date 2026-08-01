@@ -26,16 +26,6 @@ export const ROTATING_TEXTS: string[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: "melos",
-    date: "Jul 2026 — present",
-    title: "Back End Developer",
-    org: "Melos Technologies PLC · Addis Ababa (Internship)",
-    bullets: [
-      "Designed and implemented a JWT-based authentication system supporting Buyer, Seller, and Admin roles, including token refresh handling and route-level access control.",
-      "Developed custom Django REST Framework APIs with role-based permissions, secure user management, and clean endpoint architecture built for production use and future scaling.",
-    ],
-  },
-  {
     id: "10academy",
     date: "Apr 2026 — present",
     title: "AI & Machine Learning Intern",
@@ -43,6 +33,16 @@ export const EXPERIENCES: Experience[] = [
     bullets: [
       "Built 3+ end-to-end AI and machine learning solutions for real-world Ethiopian fintech challenges, applying Python, Pandas, and scikit-learn across forecasting, credit risk modeling, and financial NLP workflows.",
       "Worked across the full ML lifecycle — data cleaning, feature engineering, model training, evaluation, and explainability — on projects using real Ethiopian banking and financial complaint data.",
+    ],
+  },
+  {
+    id: "melos",
+    date: "Jul 2026 — present",
+    title: "Back End Developer",
+    org: "Melos Technologies PLC · Addis Ababa (Internship)",
+    bullets: [
+      "Designed and implemented a JWT-based authentication system supporting Buyer, Seller, and Admin roles, including token refresh handling and route-level access control.",
+      "Developed custom Django REST Framework APIs with role-based permissions, secure user management, and clean endpoint architecture built for production use and future scaling.",
     ],
   },
   {
