@@ -16,16 +16,11 @@ export default function WorkSection() {
 
       {/* Projects Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {PROJECTS.map((project) => {
-          const borderStyle = project.borderColor
-            ? { borderColor: project.borderColor }
-            : {};
-          return (
-            <div
-              key={project.id}
-              style={borderStyle}
-              className="bg-[#111009] border border-[#231F19] rounded-lg p-6 sm:p-8 flex flex-col justify-between hover:border-[#C9973F] transition-colors group"
-            >
+        {PROJECTS.map((project) => (
+          <div
+            key={project.id}
+            className="bg-[#111009] border border-[#231F19] rounded-lg p-6 sm:p-8 flex flex-col justify-between hover:border-[#C9973F] transition-colors group"
+          >
               <div className="space-y-4">
                 {/* Tech Stack Tags */}
                 <div className="flex flex-wrap gap-2">
@@ -84,9 +79,8 @@ export default function WorkSection() {
                 )}
               </div>
             </div>
-          );
-        })}
-      </div>
+          ))}
+        </div>
     </div>
   );
 }

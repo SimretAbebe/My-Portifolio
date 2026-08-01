@@ -98,7 +98,6 @@ export const PROJECTS: Project[] = [
     description:
       "Hackathon finalist project at Bahir Dar Institute of Technology (Apr 2026) — a full AI-powered hiring platform built in 48 hours.",
     github: "https://github.com/SimretAbebe/SmartHire-Ai",
-    borderColor: "#7A5A2A",
   },
   {
     id: "portfolio-opt",
@@ -107,7 +106,6 @@ export const PROJECTS: Project[] = [
     description:
       "Applied Modern Portfolio Theory alongside ARIMA and LSTM time-series forecasting to explore quantitative investment strategy.",
     github: "https://github.com/SimretAbebe/Portfolio-Optimization",
-    borderColor: "#7A5A2A",
   },
 ];
 
