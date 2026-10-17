@@ -126,7 +126,7 @@ export default function CertificatesSection() {
                   {activeCert.skills && activeCert.skills.length > 0 && (
                     <div className="space-y-1.5 pt-1">
                       <span className="text-[11px] font-mono text-[#8C8577] uppercase tracking-wider">
-                        Competencies:
+                        Skills:
                       </span>
                       <div className="flex flex-wrap gap-1.5">
                         {activeCert.skills.map((skill, sIdx) => (

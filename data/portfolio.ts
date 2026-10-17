@@ -175,10 +175,16 @@ export const SKILLS: SkillCategory[] = [
 
 export const ACHIEVEMENTS: Achievement[] = [
   {
+    id: "startup-enabler",
+    title: "Startup Enabler Award",
+    subtitle: "Natnael Melese (NM Award) · Aug 2026",
+    text: "Awarded for helping Ethiopian tech startups grow through innovation and technical skills.",
+  },
+  {
     id: "hackathon",
     title: "Hackathon Finalist — SmartHire AI",
     subtitle: "Bahir Dar Institute of Technology · Apr 2026",
-    text: "Built a full AI-powered platform in 48 hours.",
+    text: "Built a full AI-powered hiring platform in 48 hours.",
   },
   {
     id: "g17-ambassador",
@@ -190,14 +196,29 @@ export const ACHIEVEMENTS: Achievement[] = [
 
 export const CERTIFICATES: Certificate[] = [
   {
+    id: "startup-enabler-award",
+    title: "Startup Enabler Award",
+    issuer: "Natnael Melese (NM Award)",
+    date: "Aug 13, 2026",
+    description:
+      "Awarded for helping Ethiopian tech startups grow through innovation and strong technical skills.",
+    skills: [
+      "Startups",
+      "AI & Tech",
+      "Innovation",
+      "Mentorship",
+    ],
+    image: "/Simret Abebe.png",
+  },
+  {
     id: "10academy-kaim",
-    title: "Kifiya AI Mastery Training Program (with distinction)",
+    title: "AI Mastery Program (with distinction)",
     issuer: "10 Academy & Kifiya Financial Technology",
     date: "Aug 2026",
     description:
-      "Completion certificate (with distinction) for my 10 Academy AI/ML internship — the Kifiya AI Mastery Training Program, covering ML engineering, data engineering, and fintech-focused financial analysis.",
+      "Completed an intensive AI/ML program with distinction, focusing on machine learning and fintech data.",
     skills: [
-      "Machine Learning Engineering",
+      "Machine Learning",
       "Data Engineering",
       "Financial Analysis",
     ],
@@ -210,29 +231,38 @@ export const CERTIFICATES: Certificate[] = [
     issuer: "Bahir Dar Institute of Technology",
     date: "Apr 2026",
     description:
-      "Finalist certificate for building an AI-powered hiring platform in 48 hours.",
+      "Finalist certificate for building an AI hiring platform in 48 hours.",
+    skills: ["AI Solutions", "Fast Prototyping"],
     image: "/hackaton.jpg",
   },
   {
     id: "alx-freelancer",
     title: "ALX Freelancer Academy",
-    issuer: "ALX ETHIOPIA",
+    issuer: "ALX Ethiopia",
     date: "Aug 2025",
+    description:
+      "Trained on freelance development, remote client work, and project delivery.",
+    skills: ["Freelancing", "Remote Work", "Communication"],
     credentialUrl: "https://savanna.alxafrica.com/certificates/Hfr75Nx3LX",
     image: "/117-freelancer-academy-2-week-certificate-simret-abebe.png",
   },
   {
     id: "ai-for-social",
-    title: "Artificial Intelligence for Social Impact",
+    title: "AI for Social Impact",
     issuer: "Asian Development Bank Institute",
     date: "Dec 2025",
+    description:
+      "Learned how AI tools can solve real-world community and economic challenges.",
+    skills: ["AI for Good", "Social Impact"],
     image: "/ai-for-social.jpg",
   },
   {
     id: "american-corner",
     title: "Web Development Boot Camp",
-    issuer: "Bahirdar American Corner",
+    issuer: "Bahir Dar American Corner",
     date: "2025",
+    description:
+      "Hands-on bootcamp training in building responsive websites with modern web standards.",
     skills: ["HTML", "CSS", "JavaScript"],
     image: "/american-corner.jpg",
   },
@@ -242,16 +272,18 @@ export const CERTIFICATES: Certificate[] = [
     issuer: "G17 Ethiopian Chapter",
     date: "Dec 2025 — Present",
     description:
-      "Participated in the G17 Ethiopia National Induction 2025, a youth leadership initiative aligned with the UN Sustainable Development Goals.",
+      "Youth leadership training focused on sustainable development and tech innovation.",
+    skills: ["Leadership", "Community Engagement"],
     image: "/national-induction.jpg",
   },
   {
     id: "leader-of-change",
-    title: "Youth Participant – SDGs Leadership Program",
+    title: "Leaders of Change Program",
     issuer: "G17 Ethiopian Chapter",
     date: "Mar 2026",
     description:
-      "Participated in the 'Leaders of Change: Recognizing the Role of Youth in Achieving the SDGs' initiative.",
+      "Trained on youth leadership and driving positive community impact.",
+    skills: ["Leadership", "Community Action"],
     image: "/leader-of-change.jpg",
   },
 ];
