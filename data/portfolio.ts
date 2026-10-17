@@ -212,12 +212,13 @@ export const CERTIFICATES: Certificate[] = [
   },
   {
     id: "10academy-kaim",
-    title: "AI Mastery Program (with distinction)",
+    title: "KAIM AI Mastery Program — AI & ML Internship (with distinction)",
     issuer: "10 Academy & Kifiya Financial Technology",
     date: "Aug 2026",
     description:
-      "Completed an intensive AI/ML program with distinction, focusing on machine learning and fintech data.",
+      "Certificate received for successfully completing the intensive 3-month AI & Machine Learning internship (SAFEE KAIM) with distinction, focusing on machine learning engineering, data engineering, and fintech data solutions.",
     skills: [
+      "AI & ML Internship",
       "Machine Learning",
       "Data Engineering",
       "Financial Analysis",
