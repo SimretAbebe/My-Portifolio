@@ -2,11 +2,6 @@
 
 Welcome to the source code for my personal portfolio! I am a Computer Science student and Backend/ML Engineer specializing in FinTech, building secure, scalable APIs and ML pipelines.
 
-## Tech Stack
-- **Framework:** [Next.js](https://nextjs.org/) (App Router)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-
 ## Features
 - **Modern Design:** Dark theme with gold accents.
 - **Responsive:** Fully responsive across all devices.
